@@ -1,0 +1,138 @@
+
+body {
+    background-image: url('ct.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    background-color: white;
+    position: relative; 
+    border-radius: 30px;
+    border:  1px solid #F7B108;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+
+.col1{
+    padding: 20px;
+}
+
+.h11{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111B1E;
+}
+
+form{
+    padding: 20px;
+}
+
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #111B1E;;
+}
+label:hover{
+    color: red;
+
+}
+
+input {
+    width: 70%;
+    height: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: transparent;
+
+    margin-bottom: 3px;
+}
+
+input:focus {
+    transition: 0.5s;
+    border-bottom: 2px solid red; 
+
+}
+
+.boton{
+    padding-top: 2%;
+    
+}
+button{
+    width: 8rem;
+    height: 3rem;
+    position: relative;
+    bottom: 30%;
+    transform: skew(-20deg);
+    overflow: hidden;
+    border: 0;
+    cursor: pointer;
+    background-color:#111B1E;
+    position: relative;
+    left: 40%;
+    
+}
+button p {
+    display: block;
+    transform: skew(20deg);
+    border-color: red;
+}
+
+button::before{
+    content: '';
+    width: 0;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    transition: 0.5s ease;
+    display: block;
+    z-index: -1;
+   
+}
+button:hover::before{
+    width: 9rem;
+
+}
+
+.col2{
+    border-radius: 30px;
+    padding: 3rem;
+    position: relative;
+    background-color: #F7B108;
+}
+
+
+.imagen1{
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    align-items: center;
+}
+
+.imagen1 img {
+    width: 50%;
+    height: auto; 
+    max-width: 20rem;
+}
+
+.h12{
+    position: relative;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#07273F
+}
+
+
+
