@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    
+}
+
+body{
+    background-image: url(Cartagena\ \(1\).jpg);
+    background-size: cover; 
+    
+}
+
+.div1{
+    display: flex;
+    position: relative;
+    margin-right: 2%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imagen1{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 40%;
+    align-items: center;
+}
+
+.boton1{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0px;
+    margin:0px;
+    background: none;
+    font-weight: 600;
+    font-family: "Segoe UI";
+    position: relative;
+    right:95% ;
+    cursor: pointer;
+}
+
+.boton1:hover{
+    color: red;
+    transition: all .5s ease-in-out;
+}
+
+.pp{
+    color: white;
+    font-weight: 600;
+    font-family: "Segoe UI";
+}
+
+.boton2{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0px;
+    margin:0px;
+    background: none;
+    font-weight: 600;
+    font-family: "Segoe UI";
+    position: relative;
+    right: 45%;
+    cursor: pointer;
+}
+
+
+.boton2:hover{
+    color: #111B1E;
+    transition: all 0.5s ease-in-out;
+}
+
+.boton3{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0px;
+    margin:0px;
+    background: none;
+    font-weight: 600;
+    font-family: "Segoe UI";
+    position: relative;
+    cursor: pointer;
+}
+
+
+.boton3:hover{
+    color: #111B1E;
+    transition: all 0.5s ease-in-out;
+}
+
+.ppa{
+    font-weight: 600;
+    font-family: "Segoe UI";
+    position: relative;
+    right: 150%;
+    color: white;
+}
+
+
+.h1{
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 600;
+    font-family: "Segoe UI";
+    font-size: 5rem;
+    color: white;
+}
+
+.h2{
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 600;
+    font-family: "Segoe UI";
+    font-size: 2rem;
+}
+
+.div3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 58rem;
+    height: 14rem;
+    background-color: white;
+}
+
+th{
+    font-size: 15px;
+    font-family: "Segoe UI";
+    text-align: center;
+    padding-left:15px ;
+}
+
+
+td{
+    font-size: 15px;
+    font-family: "Segoe UI";
+    text-align: center;
+    display: flexbox;
+    align-items: center;
+}
+
+.imagen2{
+    padding-top: 6px;
+    width: 15rem;
+    height: 10rem;
+    align-items: center;
+}
