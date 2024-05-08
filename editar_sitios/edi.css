@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+header{
+    background-color: #F7B108;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    
+}
+
+body{
+    background-color: #111B1E;
+}
+
+
+.div1{
+    display: flex;
+    position: relative;
+    margin-right: 2%;
+    align-items: center;
+    right: 3%;
+    justify-content: space-between;
+}
+
+#imagen1{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 40%;
+    align-items: center;
+}
+
+.boton1{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0px;
+    margin:0px;
+    background: none;
+    font-weight: 600;
+    font-family: "Segoe UI";
+    position: relative;
+    right: 55%;
+    cursor: pointer;
+}
+
+
+.boton1:hover{
+    color: red;
+    transition: all 0.5s ease-in-out;
+}
+
+.boton2{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0px;
+    margin:0px;
+    background: none;
+    font-weight: 600;
+    font-family: "Segoe UI";
+    position: relative;
+    right: 90%;
+    cursor: pointer;
+}
+
+
+.boton2:hover{
+    color: red;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.pp{
+    color: white;
+    font-weight: 600;
+    font-family: "Segoe UI";
+}
+
+.div2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50rem; 
+    height: 25rem;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.div2:hover{
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.h11{
+    text-align: center;
+    padding: 10px;
+    color: #111B1E;
+    font-weight: 600;
+    font-family: "Segoe UI";
+    font-size: 1.5rem;
+}
+
+form{
+    padding: 20px;
+    padding-left: 6rem;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #111B1E;
+    padding: 7px;
+}
+
+label:hover{
+    color: red;
+
+}
+
+input{
+    width: 70%;
+    height: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: transparent;
+
+}
+
+input:focus{
+    transition: 0.5s;
+    border-bottom: 2px solid red; 
+}
+
+.boton3 {
+    width: 6rem;
+    height: 2rem;
+    position: relative;
+    transform: skew(-20deg);
+    overflow: hidden;
+    border: 0;
+    cursor: pointer;
+    background-color: #F7B108;
+    margin-top: 6px;
+
+}
+
+.boton3 p {
+    display: block;
+    transform: skew(20deg);
+    border-color: red;
+}
+
+.boton3::before{
+    content: '';
+    width: 0;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    transition: 0.9s ease;
+    display: block;
+    z-index: -1;
+   
+}
+.boton3:hover::before{
+    width: 9rem;
+
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+}
+
+.boton4{
+    width: 6rem;
+    height: 2rem;
+    position: relative;
+    transform: skew(-20deg);
+    overflow: hidden;
+    border: 0;
+    cursor: pointer;
+    background-color: #F7B108;
+    margin-top: 6px;
+    position: relative;
+    bottom: 30px;
+}
+
+.boton4 p {
+    display: block;
+    transform: skew(20deg);
+    border-color: red;
+}
+
+.boton4::before{
+    content: '';
+    width: 0;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    transition: 0.9s ease;
+    display: block;
+    z-index: -1;
+   
+}
+.boton4:hover::before{
+    width: 9rem;
+
+}
+
